@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDEA-គំនិត | គេហទំព័រចំណេះដឹងឌីជីថល</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Main Navigation -->
+    <nav class="main-nav">
+        <div class="main-nav-content">
+            <a href="index.html" class="logo">IDEA-គំនិត</a>
+            <button class="hamburger" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="main-nav-links">
+                <li><a href="#" class="active">ចំណេះដឹងថ្មី</a></li>
+                <li><a href="News.html">ខ្លឹមសារគំនិត</a></li>
+                <li><a href="#">វីដីអូបបច្ចកវិទ្យា</a></li>
+            </ul>
+        </div>
+        <div class="nav-overlay"></div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="home-hero" id="hero">
+        <!-- Animated Network Canvas -->
+        <canvas id="networkCanvas"></canvas>
+        
+        <div class="home-hero-content">
+            <h1 style="color: #FFFFFF; text-shadow: 0 2px 10px rgba(0,0,0,0.3);">ស្វាគមន៍មកកាន់ IDEA-គំនិត</h1>
+            <p style="color: rgba(255,255,255,0.95); text-shadow: 0 1px 5px rgba(0,0,0,0.2);">ចំណេះដឹងឌីជីថលសម្រាប់យុវវ័យកម្ពុជា - រៀនសូត្រ ស្វែងយល់ និងអភិវឌ្ឍន៍ជំនាញថ្មីៗ</p>
+            <div class="cta-buttons">
+                <a href="#featured" class="cta-btn cta-primary" style="background: rgba(255,255,255,0.2); color: #FFF; border: 2px solid rgba(255,255,255,0.5); backdrop-filter: blur(10px);">ស្វែងយល់បន្ថែម</a>
+                <a href="News.html" class="cta-btn cta-secondary" style="background: #FFF; color: #1e3c72; border: 2px solid #FFF;">មើលអត្ថបទទាំងអស់</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Section -->
+    <section id="featured" class="featured-section">
+        <div class="featured-container">
+            <div class="section-header">
+                <h2 class="section-title">អត្ថបទពេញនិយម</h2>
+                <p class="section-subtitle">អត្ថបទចុងក្រោយបំផុតអំពីបច្ចេកវិទ្យា និងជីវិតឌីជីថល</p>
+            </div>
+
+            <!-- Featured Article - Large -->
+            <article class="featured-article">
+                <img src="1st.png" alt="តើការមើលអេក្រង់រយៈពេលយូរអាចប៉ះពាល់ដល់សុខភាពរបស់យើងយ៉ាងដូចម្តេច?" class="featured-image-large">
+                <div class="featured-content-large">
+                    <div class="featured-category">សុខភាពឌីជីថល</div>
+                    <h3 class="featured-title">តើការមើលអេក្រង់រយៈពេលយូរអាចប៉ះពាល់ដល់សុខភាពរបស់យើងយ៉ាងដូចម្តេច?</h3>
+                    <p class="featured-excerpt">ភាគច្រើនយើងតែងតែមើលរំលងផលប៉ះពាល់អវិជ្ជមាននៃការមើលអេក្រង់ទូរស័ព្ទរយៈពេលយូរ។ អត្ថបទនេះនឹងជួយណែនាំអ្នកក្នុងការកំណត់ពេលវេលា និងការមើលទូរស័ព្ទឱ្យបានត្រឹមត្រូវ។</p>
+                    <a href="LandingPage.html" class="featured-link">
+                        ចូលអាន →
+                    </a>
+                </div>
+            </article>
+
+            <!-- Articles Grid -->
+            <div class="articles-grid">
+                <!-- Article 1 -->
+                <article class="article-card">
+                    <img src="3st.png" alt="ផលប៉ះពាល់នៃការប្រើប្រាស់អេក្រង់" class="article-image">
+                    <div class="article-content">
+                        <div class="article-category">សុខភាពភ្នែក</div>
+                        <h3 class="article-title">ផលប៉ះពាល់នៃការប្រើប្រាស់អេក្រង់លើសុខភាពភ្នែក</h3>
+                        <p class="article-excerpt">ស្វែងយល់អំពីរបៀបការពារភ្នែករបស់អ្នកពីការប្រើប្រាស់អេក្រង់រយៈពេលយូរ។</p>
+                        <a href="LandingPage.html" class="article-link">ចូលអាន →</a>
+                    </div>
+                </article>
+
+                <!-- Article 2 -->
+                <article class="article-card">
+                    <img src="5st.png" alt="ការប្រើ Greyscale Mode" class="article-image">
+                    <div class="article-content">
+                        <div class="article-category">បច្ចេកទេស</div>
+                        <h3 class="article-title">ការប្រើ GREYSCALE MODE ដើម្បីកាត់បន្ថយពេលវេលាប្រើទូរស័ព្ទ</h3>
+                        <p class="article-excerpt">បច្ចេកទេសមួយដ៏មានប្រសិទ្ធភាពក្នុងការជួយអ្នកកាត់បន្ថយការប្រើប្រាស់ទូរស័ព្ទ។</p>
+                        <a href="LandingPage.html" class="article-link">ចូលអាន →</a>
+                    </div>
+                </article>
+
+                <!-- Article 3 -->
+                <article class="article-card">
+                    <img src="7st.png" alt="ការកំណត់ពេលវេលាប្រើប្រាស់" class="article-image">
+                    <div class="article-content">
+                        <div class="article-category">គ្រប់គ្រងពេលវេលា</div>
+                        <h3 class="article-title">ការកំណត់ពេលវេលាប្រើប្រាស់ទូរស័ព្ទឱ្យមានប្រសិទ្ធភាព</h3>
+                        <p class="article-excerpt">ណែនាំជំនាញក្នុងការគ្រប់គ្រងពេលវេលាប្រើទូរស័ព្ទឱ្យបានត្រឹមត្រូវ។</p>
+                        <a href="LandingPage.html" class="article-link">ចូលអាន →</a>
+                    </div>
+                </article>
+
+                <!-- Article 4 -->
+                <article class="article-card">
+                    <img src="6st.png" alt="សន្តិសុខអនឡាញ" class="article-image">
+                    <div class="article-content">
+                        <div class="article-category">សុវត្ថិភាព</div>
+                        <h3 class="article-title">នីតិវិធីការពារសន្តិសុខព័ត៌មានលើអ៊ីនធឺណិត</h3>
+                        <p class="article-excerpt">ស្វែងយល់អំពីរបៀបការពារខ្លួនអ្នកពីការគំរាមកំហែងលើអ៊ីនធឺណិត។</p>
+                        <a href="LandingPage.html" class="article-link">ចូលអាន →</a>
+                    </div>
+                </article>
+
+                <!-- Article 5 -->
+                <article class="article-card">
+                    <img src="4st.png" alt="គោលការណ៍ប្រើប្រាស់ទូរស័ព្ទ" class="article-image">
+                    <div class="article-content">
+                        <div class="article-category">ជីវិតឌីជីថល</div>
+                        <h3 class="article-title">គោលការណ៍ប្រើប្រាស់ទូរស័ព្ទឱ្យមានសុខភាពល្អ</h3>
+                        <p class="article-excerpt">ណែនាំអំពីទម្លាប់ល្អៗក្នុងការប្រើប្រាស់ឧបករណ៍ឌីជីថល។</p>
+                        <a href="LandingPage.html" class="article-link">ចូលអាន →</a>
+                    </div>
+                </article>
+
+                <!-- Article 6 -->
+                <article class="article-card">
+                    <img src="8st.png" alt="ការគ្រប់គ្រងម៉ោងប្រើប្រាស់" class="article-image">
+                    <div class="article-content">
+                        <div class="article-category">គ្រប់គ្រងពេលវេលា</div>
+                        <h3 class="article-title">ការកំណត់ម៉ោងប្រើប្រាស់ទូរស័ព្ទប្រចាំថ្ងៃ</h3>
+                        <p class="article-excerpt">ជំនួយក្នុងការកំណត់និងគ្រប់គ្រងពេលវេលាប្រើទូរស័ព្ទឱ្យមានតុល្យភាព។</p>
+                        <a href="LandingPage.html" class="article-link">ចូលអាន →</a>
+                    </div>
+                </article>
+            </div>
+
+            <!-- View All Button -->
+            <div class="view-all-container">
+                <a href="News.html" class="view-all-btn">មើលអត្ថបទទាំងអស់</a>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Footer Top -->
+            <div class="footer-top">
+                <div class="footer-column">
+                    <h3 class="footer-logo">IDEA-គំនិត</h3>
+                    <p class="footer-description">ចំណេះដឹងឌីជីថលសម្រាប់យុវវ័យកម្ពុជា - រៀនសូត្រ ស្វែងយល់ និងអភិវឌ្ឍន៍ជំនាញថ្មីៗ</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="YouTube">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h4 class="footer-title">ចំណេះដឹងថ្មី</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">បច្ចេកវិទ្យា</a></li>
+                        <li><a href="#">សុខភាពឌីជីថល</a></li>
+                        <li><a href="#">សន្តិសុខអនឡាញ</a></li>
+                        <li><a href="#">ជំនាញថ្មី</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4 class="footer-title">អំពីយើង</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">ព័ត៌មានអំពីយើង</a></li>
+                        <li><a href="#">ក្រុមការងារ</a></li>
+                        <li><a href="#">ទំនាក់ទំនង</a></li>
+                        <li><a href="#">ការងារ</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4 class="footer-title">ជំនួយ</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">សំណួរញឹកញាប់</a></li>
+                        <li><a href="#">គោលការណ៍ឯកជនភាព</a></li>
+                        <li><a href="#">លក្ខខណ្ឌប្រើប្រាស់</a></li>
+                        <li><a href="#">ផ្តល់មតិយោបល់</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4 class="footer-title">ទទួលព័ត៌មានថ្មី</h4>
+                    <p class="newsletter-text">ចុះឈ្មោះទទួលអត្ថបទថ្មីៗពីយើង</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="អ៊ីមែលរបស់អ្នក" required>
+                        <button type="submit">ចុះឈ្មោះ</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <p>&copy; 2026 IDEA-គំនិត. រក្សាសិទ្ធិគ្រប់យ៉ាង។</p>
+                <div class="footer-bottom-links">
+                    <a href="#">គោលការណ៍ឯកជនភាព</a>
+                    <span>•</span>
+                    <a href="#">លក្ខខណ្ឌប្រើប្រាស់</a>
+                    <span>•</span>
+                    <a href="#">ផែនទីគេហទំព័រ</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        // ==========================================
+        // NETWORK CONSTELLATION ANIMATION
+        // ==========================================
+        
+        const canvas = document.getElementById('networkCanvas');
+        const ctx = canvas.getContext('2d');
+        const hero = document.getElementById('hero');
+        
+        let particles = [];
+        let mouseX = 0;
+        let mouseY = 0;
+        let isMouseInHero = false;
+        
+        // Set canvas size
+        function resizeCanvas() {
+            canvas.width = hero.offsetWidth;
+            canvas.height = hero.offsetHeight;
+        }
+        
+        // Particle class
+        class Particle {
+            constructor() {
+                this.x = Math.random() * canvas.width;
+                this.y = Math.random() * canvas.height;
+                this.vx = (Math.random() - 0.5) * 0.5;
+                this.vy = (Math.random() - 0.5) * 0.5;
+                this.radius = Math.random() * 2 + 1;
+                this.pulsePhase = Math.random() * Math.PI * 2;
+            }
+            
+            update() {
+                this.x += this.vx;
+                this.y += this.vy;
+                
+                // Bounce off edges
+                if (this.x < 0 || this.x > canvas.width) this.vx *= -1;
+                if (this.y < 0 || this.y > canvas.height) this.vy *= -1;
+                
+                // Mouse interaction
+                if (isMouseInHero) {
+                    const dx = mouseX - this.x;
+                    const dy = mouseY - this.y;
+                    const distance = Math.sqrt(dx * dx + dy * dy);
+                    
+                    if (distance < 100) {
+                        const angle = Math.atan2(dy, dx);
+                        this.vx -= Math.cos(angle) * 0.05;
+                        this.vy -= Math.sin(angle) * 0.05;
+                    }
+                }
+                
+                // Damping
+                this.vx *= 0.99;
+                this.vy *= 0.99;
+                
+                // Update pulse
+                this.pulsePhase += 0.05;
+            }
+            
+            draw() {
+                const pulse = Math.sin(this.pulsePhase) * 0.5 + 0.5;
+                const size = this.radius * (0.8 + pulse * 0.4);
+                
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, size, 0, Math.PI * 2);
+                ctx.fillStyle = `rgba(255, 255, 255, ${0.6 + pulse * 0.4})`;
+                ctx.fill();
+                
+                // Enhanced glow effect
+                ctx.shadowBlur = 15 + pulse * 10;
+                ctx.shadowColor = `rgba(255, 255, 255, ${0.5 + pulse * 0.3})`;
+            }
+        }
+        
+        // Initialize particles
+        function initParticles() {
+            particles = [];
+            const particleCount = Math.floor((canvas.width * canvas.height) / 15000);
+            for (let i = 0; i < particleCount; i++) {
+                particles.push(new Particle());
+            }
+        }
+        
+        // Draw connections
+        function drawConnections() {
+            for (let i = 0; i < particles.length; i++) {
+                for (let j = i + 1; j < particles.length; j++) {
+                    const dx = particles[i].x - particles[j].x;
+                    const dy = particles[i].y - particles[j].y;
+                    const distance = Math.sqrt(dx * dx + dy * dy);
+                    
+                    if (distance < 150) {
+                        ctx.beginPath();
+                        ctx.moveTo(particles[i].x, particles[i].y);
+                        ctx.lineTo(particles[j].x, particles[j].y);
+                        
+                        const opacity = (1 - distance / 150) * 0.5;
+                        ctx.strokeStyle = `rgba(255, 255, 255, ${opacity})`;
+                        ctx.lineWidth = 1;
+                        ctx.stroke();
+                    }
+                }
+                
+                // Connect to mouse
+                if (isMouseInHero) {
+                    const dx = mouseX - particles[i].x;
+                    const dy = mouseY - particles[i].y;
+                    const distance = Math.sqrt(dx * dx + dy * dy);
+                    
+                    if (distance < 150) {
+                        ctx.beginPath();
+                        ctx.moveTo(particles[i].x, particles[i].y);
+                        ctx.lineTo(mouseX, mouseY);
+                        
+                        const opacity = (1 - distance / 150) * 0.8;
+                        ctx.strokeStyle = `rgba(255, 255, 255, ${opacity})`;
+                        ctx.lineWidth = 2;
+                        ctx.stroke();
+                    }
+                }
+            }
+        }
+        
+        // Animation loop
+        function animate() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            
+            // Update and draw particles
+            particles.forEach(particle => {
+                particle.update();
+                particle.draw();
+            });
+            
+            // Draw connections
+            drawConnections();
+            
+            requestAnimationFrame(animate);
+        }
+        
+        // Mouse events
+        hero.addEventListener('mousemove', (e) => {
+            const rect = hero.getBoundingClientRect();
+            mouseX = e.clientX - rect.left;
+            mouseY = e.clientY - rect.top;
+            isMouseInHero = true;
+        });
+        
+        hero.addEventListener('mouseleave', () => {
+            isMouseInHero = false;
+        });
+        
+        // Initialize
+        window.addEventListener('load', () => {
+            resizeCanvas();
+            initParticles();
+            animate();
+        });
+        
+        window.addEventListener('resize', () => {
+            resizeCanvas();
+            initParticles();
+        });
+
+        // Hamburger Menu Toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.main-nav-links');
+        const navOverlay = document.querySelector('.nav-overlay');
+        
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navLinks.classList.toggle('active');
+            navOverlay.classList.toggle('active');
+        });
+
+        navOverlay.addEventListener('click', () => {
+            hamburger.classList.remove('active');
+            navLinks.classList.remove('active');
+            navOverlay.classList.remove('active');
+        });
+
+        // Close menu when clicking a link
+        document.querySelectorAll('.main-nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navLinks.classList.remove('active');
+                navOverlay.classList.remove('active');
+            });
+        });
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Animate cards on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.article-card, .story-card').forEach(card => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(30px)';
+            card.style.transition = 'all 0.6s ease-out';
+            observer.observe(card);
+        });
+    </script>
+</body>
+</html>

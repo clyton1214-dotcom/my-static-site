@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ខ្លឹមសារគំនិត | IDEA-គំនិត</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Main Navigation -->
+   <nav class="main-nav">
+        <div class="main-nav-content">
+            <a href="index.html" class="logo">IDEA-គំនិត</a>
+            <button class="hamburger" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="main-nav-links">
+                <li><a href="Index.html">ចំណេះដឹងថ្មី</a></li>
+                <li><a href="News.html" class="active">ខ្លឹមសារគំនិត</a></li>
+                <li><a href="#">វីដីអូបបច្ចកវិទ្យា</a></li>
+            </ul>
+        </div>
+        <div class="nav-overlay"></div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="page-header-content">
+            <h1 class="page-title">ខ្លឹមសារគំនិត</h1>
+        </div>
+    </header>
+
+    <!-- Filter Section -->
+    <section class="filter-section">
+        <div class="filter-content">
+            <span class="filter-label">ច្រោះតាម:</span>
+            <div class="filter-group">
+                <span class="filter-type">ឆ្នាំ</span>
+                <select class="filter-select" id="yearFilter">
+                    <option value="">ជ្រើសរើស...</option>
+                    <option value="2026">២០២៦</option>
+                    <option value="2025">២០២៥</option>
+                    <option value="2024">២០២៤</option>
+                    <option value="2023">២០២៣</option>
+                </select>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Grid -->
+    <main class="news-container">
+        <div class="news-grid">
+            <!-- News Card 1 -->
+            <article class="news-card fade-in">
+                <div class="news-image-wrapper">
+                    <img src="1st.png" alt="Kids & Teens Stay Free" class="news-image">
+                </div>
+                <div class="news-content">
+                    <div class="news-category">បច្ចេកវិទ្យា</div>
+                    <h3 class="news-title">តើការមើលអេក្រង់រយៈពេលប៉ុន្មានម៉ោង ទើបមានន័យថាច្រើនខ្លាំង?</h3>
+                    <a href="LandingPage.html" class="read-more">ចូលអាន</a>
+                </div>
+            </article>
+
+            <!-- News Card 2 -->
+            <article class="news-card fade-in">
+                <div class="news-image-wrapper">
+                    <img src="3st.png" alt="Hotel Heron" class="news-image">
+                </div>
+                <div class="news-content">
+                    <div class="news-category">សុខភាពឌីជីថល</div>
+                    <h3 class="news-title">របៀបការពារភ្នែកពីពន្លឺខៀវនៃអេក្រង់</h3>
+                    <a href="LandingPage.html" class="read-more">ចូលអាន</a>
+                </div>
+            </article>
+
+            <!-- News Card 3 -->
+            <article class="news-card fade-in">
+                <div class="news-image-wrapper">
+                    <img src="4st.png" alt="Why We Gather" class="news-image">
+                </div>
+                <div class="news-content">
+                    <div class="news-category">ជំនាញថ្មី</div>
+                    <h3 class="news-title">ការគ្រប់គ្រងពេលវេលាប្រើប្រាស់ឧបករណ៍ឌីជីថល</h3>
+                    <a href="LandingPage.html" class="read-more">ចូលអាន</a>
+                </div>
+            </article>
+
+            <!-- News Card 4 -->
+            <article class="news-card fade-in">
+                <div class="news-image-wrapper">
+                    <img src="5st.png" alt="Apartment Collection" class="news-image">
+                </div>
+                <div class="news-content">
+                    <div class="news-category">សន្តិសុខអនឡាញ</div>
+                    <h3 class="news-title">ការការពារព័ត៌មានផ្ទាល់ខ្លួននៅលើអ៊ីនធឺណិត</h3>
+                    <a href="LandingPage.html" class="read-more">ចូលអាន</a>
+                </div>
+            </article>
+
+            <!-- News Card 5 -->
+            <article class="news-card fade-in">
+                <div class="news-image-wrapper">
+                    <img src="6st.png" alt="Waldorf Astoria" class="news-image">
+                </div>
+                <div class="news-content">
+                    <div class="news-category">បច្ចេកវិទ្យា</div>
+                    <h3 class="news-title">ការប្រើប្រាស់បច្ចេកវិទ្យាឱ្យមានប្រសិទ្ធភាព</h3>
+                    <a href="LandingPage.html" class="read-more">ចូលអាន</a>
+                </div>
+            </article>
+
+            <!-- News Card 6 -->
+            <article class="news-card fade-in">
+                <div class="news-image-wrapper">
+                    <img src="7st.png" alt="Resort News" class="news-image">
+                </div>
+                <div class="news-content">
+                    <div class="news-category">ជំនាញថ្មី</div>
+                    <h3 class="news-title">រៀនសូត្រជំនាញឌីជីថលសម្រាប់អនាគត</h3>
+                    <a href="LandingPage.html" class="read-more">ចូលអាន</a>
+                </div>
+            </article>
+
+            <!-- News Card 7 -->
+            <article class="news-card fade-in">
+                <div class="news-image-wrapper">
+                    <img src="8st.png" alt="Sustainability" class="news-image">
+                </div>
+                <div class="news-content">
+                    <div class="news-category">សុខភាពឌីជីថល</div>
+                    <h3 class="news-title">ការថែរក្សាសុខភាពផ្លូវចិត្តក្នុងយុគឌីជីថល</h3>
+                    <a href="LandingPage.html" class="read-more">ចូលអាន</a>
+                </div>
+            </article>
+
+            <!-- News Card 8 -->
+            <article class="news-card fade-in">
+                <div class="news-image-wrapper">
+                    <img src="2st.png" alt="Technology" class="news-image">
+                </div>
+                <div class="news-content">
+                    <div class="news-category">បច្ចេកវិទ្យា</div>
+                    <h3 class="news-title">ការប្រើប្រាស់កម្មវិធីសម្រាប់ការសិក្សា</h3>
+                    <a href="LandingPage.html" class="read-more">ចូលអាន</a>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Footer Top -->
+            <div class="footer-top">
+                <div class="footer-column">
+                    <h3 class="footer-logo">IDEA-គំនិត</h3>
+                    <p class="footer-description">ចំណេះដឹងឌីជីថលសម្រាប់យុវវ័យកម្ពុជា - រៀនសូត្រ ស្វែងយល់ និងអភិវឌ្ឍន៍ជំនាញថ្មីៗ</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="YouTube">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h4 class="footer-title">ចំណេះដឹងថ្មី</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">បច្ចេកវិទ្យា</a></li>
+                        <li><a href="#">សុខភាពឌីជីថល</a></li>
+                        <li><a href="#">សន្តិសុខអនឡាញ</a></li>
+                        <li><a href="#">ជំនាញថ្មី</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4 class="footer-title">អំពីយើង</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">ព័ត៌មានអំពីយើង</a></li>
+                        <li><a href="#">ក្រុមការងារ</a></li>
+                        <li><a href="#">ទំនាក់ទំនង</a></li>
+                        <li><a href="#">ការងារ</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4 class="footer-title">ជំនួយ</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">សំណួរញឹកញាប់</a></li>
+                        <li><a href="#">គោលការណ៍ឯកជនភាព</a></li>
+                        <li><a href="#">លក្ខខណ្ឌប្រើប្រាស់</a></li>
+                        <li><a href="#">ផ្តល់មតិយោបល់</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4 class="footer-title">ទទួលព័ត៌មានថ្មី</h4>
+                    <p class="newsletter-text">ចុះឈ្មោះទទួលអត្ថបទថ្មីៗពីយើង</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="អ៊ីមែលរបស់អ្នក" required>
+                        <button type="submit">ចុះឈ្មោះ</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <p>&copy; 2026 IDEA-គំនិត. រក្សាសិទ្ធិគ្រប់យ៉ាង។</p>
+                <div class="footer-bottom-links">
+                    <a href="#">គោលការណ៍ឯកជនភាព</a>
+                    <span>•</span>
+                    <a href="#">លក្ខខណ្ឌប្រើប្រាស់</a>
+                    <span>•</span>
+                    <a href="#">ផែនទីគេហទំព័រ</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Hamburger Menu Toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.main-nav-links');
+        const navOverlay = document.querySelector('.nav-overlay');
+        
+        if (hamburger) {
+            hamburger.addEventListener('click', () => {
+                hamburger.classList.toggle('active');
+                navLinks.classList.toggle('active');
+                navOverlay.classList.toggle('active');
+            });
+        }
+
+        if (navOverlay) {
+            navOverlay.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navLinks.classList.remove('active');
+                navOverlay.classList.remove('active');
+            });
+        }
+
+        // Close menu when clicking a link
+        document.querySelectorAll('.main-nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                if (hamburger) {
+                    hamburger.classList.remove('active');
+                    navLinks.classList.remove('active');
+                    navOverlay.classList.remove('active');
+                }
+            });
+        });
+
+        // Year filter functionality
+        document.getElementById('yearFilter').addEventListener('change', function() {
+            const selectedYear = this.value;
+            console.log('Filter by year:', selectedYear);
+            // Add filtering logic here
+        });
+
+        // Stagger animation for cards
+        const cards = document.querySelectorAll('.news-card');
+        cards.forEach((card, index) => {
+            card.style.animationDelay = `${index * 0.1}s`;
+        });
+    </script>
+</body>
+</html>
