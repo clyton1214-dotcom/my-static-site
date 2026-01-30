@@ -109,7 +109,7 @@ body {
 .main-nav-links a {
     color: #2C3E50;
     text-decoration: none;
-    font-size: 0.95rem;
+    font-size: 1.2rem;
     font-weight: 500;
     letter-spacing: 0.3px;
     transition: var(--transition);
@@ -2654,4 +2654,5 @@ html, body {
         width: 90% !important;
         max-width: 90vw !important;
     }
+
 }
